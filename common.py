@@ -33,6 +33,7 @@ __all__ = (
 
 import numpy
 
+NUM_CHARS = 8
 
 DIGITS = "0123456789"
 LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"

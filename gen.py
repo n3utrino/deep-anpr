@@ -158,11 +158,12 @@ def make_affine_transform(from_shape, to_shape,
 
 
 def generate_code():
-    return "{}{}{}{} {}{}{}".format(
+    return "{}{}{}{} {}{}{}{}".format(
         random.choice(common.LETTERS),
         random.choice(common.LETTERS),
         random.choice(common.DIGITS),
         random.choice(common.DIGITS),
+        random.choice(common.LETTERS),
         random.choice(common.LETTERS),
         random.choice(common.LETTERS),
         random.choice(common.LETTERS))
